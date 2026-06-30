@@ -118,7 +118,7 @@ edit_page_button: true
 navbar-var-length: false
 
 # The keywords to associate with your website, for SEO purposes
-keywords: "physical oceanography, Southern Ocean, scientific computing, data assimilation, Python, climate data analysis, research software"
+keywords: "physical oceanography, air-sea interaction, numerical modeling, scientific computing, data assimilation, Python, climate data analysis, research software"
 
 ######################################
 # --- Colours / background image --- #
