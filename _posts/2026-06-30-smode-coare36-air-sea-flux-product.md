@@ -1,42 +1,32 @@
 ---
 layout: post
 title: "S-MODE COARE3.6 Air-Sea Flux Product: Notes for Analysis and Use"
-subtitle: "A concise guide to interpretation, strengths, and limitations"
+subtitle: "Quick guide to strengths, use cases, and caveats"
 tags: [s-mode, air-sea interaction, fluxes, datasets]
 ---
 
-The S-MODE COARE3.6 air-sea flux product is a valuable resource for studying upper-ocean forcing during submesoscale-focused field campaigns. It provides physically grounded turbulent flux estimates derived with COARE3.6 bulk algorithms, making it useful for process studies, model forcing checks, and event-based diagnostics.
+The S-MODE COARE3.6 product provides physically grounded turbulent air-sea flux estimates for process-oriented upper-ocean studies.
 
-## What this product provides
-
-The product generally includes surface exchange terms such as:
+## What it provides
 
 - Momentum flux (wind stress)
 - Sensible heat flux
 - Latent heat flux
-- Supporting near-surface meteorological variables used in the bulk calculations
+- Supporting near-surface meteorological variables
 
-These variables help connect observed oceanic responses to atmospheric forcing over short to seasonal timescales.
+## Best use cases
 
-## Best-use cases
+- Mixed-layer heat and momentum budget diagnostics
+- Model forcing evaluation and comparison
+- Event-scale air-sea coupling during fronts and strong weather transitions
 
-This dataset is especially useful for:
+## Practical notes
 
-- Diagnosing mixed-layer heat and momentum budgets
-- Comparing observed forcing with model boundary or surface forcing fields
-- Evaluating event-scale air-sea coupling during fronts and strong weather transitions
-
-## Practical usage notes
-
-For reliable interpretation, pair the flux product with local hydrographic and velocity observations when possible. Temporal averaging and collocation strategy can strongly affect diagnostics, particularly when submesoscale variability is active.
-
-Recommended practice:
-
-- Match flux timestamps to ocean observations carefully
-- Track sign conventions and units explicitly in code
-- Use sensitivity checks for averaging windows and filtering
-- Keep provenance and processing scripts version-controlled
+- Pair fluxes with collocated ocean observations whenever possible
+- Verify sign conventions and units in code
+- Test sensitivity to averaging and filtering choices
+- Track provenance and version-control processing scripts
 
 ## Takeaway
 
-The S-MODE COARE3.6 flux product is most powerful when treated as part of an integrated workflow: quality-controlled forcing, collocated ocean observations, and transparent analysis methods. This approach supports both publication-quality science and practical technical applications.
+Use this product in an integrated workflow: quality-controlled forcing, collocated ocean observations, and transparent analysis steps. This is the most reliable path for both publication work and applied technical analysis.
