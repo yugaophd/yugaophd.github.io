@@ -254,7 +254,13 @@
 
 {%- if site.social-network-links.google-scholar -%}
   <li class="list-inline-item">
-    <a href="https://scholar.google.com/{{ site.social-network-links.google-scholar }}" title="Google Scholar">
+    {% assign scholar_link = site.social-network-links.google-scholar %}
+    {% if scholar_link contains 'http://' or scholar_link contains 'https://' %}
+      {% assign scholar_href = scholar_link %}
+    {% else %}
+      {% assign scholar_href = 'https://scholar.google.com/' | append: scholar_link %}
+    {% endif %}
+    <a href="{{ scholar_href }}" title="Google Scholar">
       <span class="fa-stack fa-lg" aria-hidden="true">
         <i class="fas fa-circle fa-stack-2x"></i>
         <i class="fa fa-graduation-cap fa-stack-1x fa-inverse"></i>

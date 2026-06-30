@@ -22,9 +22,10 @@ author: "Yu Gao"
 navbar-links:
  Home:  "/"
  # About Me: "aboutme"
- # Blogs: "blogs" # Add this line
+ Blogs: "blogs"
+ Resume: "/resume/"
  Google Scholar: "https://scholar.google.com/citations?user=acxqLH8AAAAJ&hl=en"
- CV: "/assets/Academic_CV.pdf"
+ LinkedIn: "https://www.linkedin.com/in/yugaorsmas/"
 
 ################
 # --- Logo --- #
@@ -117,7 +118,7 @@ edit_page_button: true
 navbar-var-length: false
 
 # The keywords to associate with your website, for SEO purposes
-#keywords: "my,list,of,keywords"
+keywords: "physical oceanography, Southern Ocean, scientific computing, data assimilation, Python, climate data analysis, research software"
 
 ######################################
 # --- Colours / background image --- #

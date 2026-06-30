@@ -1,0 +1,116 @@
+/* Homepage-only layout and call-to-action styling */
+
+.home-landing {
+  margin-top: 0.5rem;
+}
+
+.home-hero {
+  border: 1px solid #d9e3ee;
+  border-radius: 14px;
+  padding: 1.25rem 1.25rem 1rem;
+  background: linear-gradient(125deg, #f4f8fb 0%, #eef5ff 100%);
+}
+
+.home-hero-text {
+  margin: 0;
+  font-size: 1.08rem;
+}
+
+.home-cta-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  margin-top: 1rem;
+}
+
+.home-cta {
+  display: inline-block;
+  border: 1px solid #9ab6d2;
+  border-radius: 999px;
+  padding: 0.45rem 0.95rem;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 0.88rem;
+  font-weight: 700;
+  letter-spacing: 0.02rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #1f4f7a;
+  background-color: #ffffff;
+}
+
+.home-cta:hover,
+.home-cta:focus {
+  text-decoration: none;
+  color: #133a5d;
+  border-color: #6993bb;
+  transform: translateY(-1px);
+}
+
+.home-cta-primary {
+  color: #ffffff;
+  background-color: #1f4f7a;
+  border-color: #1f4f7a;
+}
+
+.home-cta-primary:hover,
+.home-cta-primary:focus {
+  color: #ffffff;
+  background-color: #174062;
+  border-color: #174062;
+}
+
+.home-resume-note {
+  margin: 0.75rem 0 0;
+  font-size: 0.9rem;
+  color: #4a6077;
+}
+
+.home-section {
+  margin-top: 1.5rem;
+}
+
+.home-audience-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.8rem;
+}
+
+.home-audience-card {
+  border: 1px solid #d9e3ee;
+  border-radius: 12px;
+  padding: 0.85rem 0.95rem;
+  background: #fbfdff;
+}
+
+.home-audience-card h3 {
+  margin-top: 0;
+  margin-bottom: 0.45rem;
+  font-size: 1.02rem;
+}
+
+.home-audience-card p {
+  margin: 0;
+}
+
+.home-section h2 {
+  margin-bottom: 0.6rem;
+}
+
+.home-section ul {
+  margin-top: 0.5rem;
+}
+
+@media (max-width: 767px) {
+  .home-hero {
+    padding: 1rem;
+  }
+
+  .home-cta {
+    width: 100%;
+    text-align: center;
+  }
+
+  .home-audience-grid {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,42 +1,54 @@
 ---
 layout: home
 title: Yu Gao
-subtitle: Physical Oceanographer | Scientific Programmer
+subtitle: Physical Oceanographer | Scientific Software and Data Workflows
+css:
+  - "/assets/css/homepage.css"
 ---
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Yu Gao - Physical Oceanographer | Scientific Programmer</title>
-    <!-- Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1M474C8ESF"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-1M474C8ESF');
-    </script>
-</head>
-    
-<body>
-    <section>
-      <h2>Expertise</h2>
-      <ul>
-        <li><strong>Domain Knowledge:</strong> Ocean circulation, air–sea interaction, Southern Ocean dynamics</li>
-        <li><strong>Observational Data:</strong> Satellite (SWOT) and in situ platforms including wave gliders, moorings, and deep-ocean temperature/salinity measurements</li>
-        <li><strong>Data Science & Programming:</strong> Python, Fortran, MATLAB, high-performance computing (HPC), Git-based version control and collaboration</li>
-        <li><strong>Data Management & FAIR Practices:</strong> Produce datasets that adhere to FAIR principles (Findable, Accessible, Interoperable, Reusable) and maintaining clear, consistent file structures for long-term usability</li>
-        <li><strong>Ocean Models:</strong> Coupled ocean-atmosphere modeling and data assimilation; Experience in Regional Ocean Modeling System (ROMS), Finite Volume Com-
-munity Ocean Model (FVCOM) </li>
-  </ul>
-    </section>
+<div class="home-landing">
+  <section class="home-hero" aria-label="Professional summary">
+    <p class="home-hero-text">
+      I study Southern Ocean dynamics and build scientific software for observational and modeling workflows.
+      I focus on turning complex geophysical data into reproducible analysis that supports both academic research and applied technical decisions.
+    </p>
+    <div class="home-cta-group">
+      <a class="home-cta home-cta-primary" href="/resume/">Resume Highlights</a>
+      <a class="home-cta" href="/assets/Academic_CV.pdf" target="_blank" rel="noopener">Download CV (PDF)</a>
+      <a class="home-cta" href="https://scholar.google.com/citations?user=acxqLH8AAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a>
+      <a class="home-cta" href="https://www.linkedin.com/in/yugaorsmas/" target="_blank" rel="noopener">LinkedIn</a>
+    </div>
+    <p class="home-resume-note">Resume updated: June 2026</p>
+  </section>
 
-    <section>
-        <h2>Education</h2>
-        <ul>
-            <li>Ph.D. Meteorology & Physical Oceanography, University of Miami </li>
-            <!-- <li>B.Sc. Marine Science, Ocean University of China (2016)</li> -->
-        </ul>
-    </section>
+  <section class="home-section home-audience" aria-labelledby="audience-heading">
+    <h2 id="audience-heading">How I Work Across Academia and Industry</h2>
+    <div class="home-audience-grid">
+      <article class="home-audience-card">
+        <h3>For Academic Collaborators</h3>
+        <p>End-to-end research support from observational analysis to modeling experiments, with transparent and reproducible workflows.</p>
+      </article>
+      <article class="home-audience-card">
+        <h3>For Technical Teams</h3>
+        <p>Data pipeline design, quality-controlled analysis, and scientific software practices that improve reliability and communication across teams.</p>
+      </article>
+    </div>
+  </section>
 
-</body>
-</html>
+  <section class="home-section" aria-labelledby="expertise-heading">
+    <h2 id="expertise-heading">Research and Technical Expertise</h2>
+    <ul>
+      <li><strong>Domain Knowledge:</strong> Ocean circulation, air-sea interaction, and Southern Ocean dynamics</li>
+      <li><strong>Observational Data:</strong> Satellite (SWOT) and in situ platforms including wave gliders, moorings, and deep-ocean temperature/salinity measurements</li>
+      <li><strong>Programming and Computing:</strong> Python, Fortran, MATLAB, high-performance computing (HPC), and Git-based collaboration</li>
+      <li><strong>Data Management and FAIR Practices:</strong> Deliver datasets following FAIR principles and maintain clear, reusable project structures</li>
+      <li><strong>Ocean Modeling:</strong> Coupled ocean-atmosphere modeling and data assimilation, with ROMS and FVCOM experience</li>
+    </ul>
+  </section>
+
+  <section class="home-section" aria-labelledby="education-heading">
+    <h2 id="education-heading">Education</h2>
+    <ul>
+      <li>Ph.D. in Meteorology and Physical Oceanography, University of Miami</li>
+    </ul>
+  </section>
+</div>
